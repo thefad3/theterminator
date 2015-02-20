@@ -9,10 +9,10 @@
 <body ng-app="termController">
 <div ng-controller="btnController" class="btn-wrapper">
     <div class="movement">movement: {{ movement.direction }}</div>
-    <button ng-click="movement.direction = 'w'" class="up">up</button>
-    <button ng-click="movement.direction = 's'" class="down">down</button>
-    <button ng-click="movement.direction = 'a'" class="left">left</button>
-    <button ng-click="movement.direction = 'd'" class="right">right</button>
+    <button ng-mousedown="movement.direction = 'w'" ng-click="movement.direction = 'x'" class="up">up</button>
+    <button ng-mousedown="movement.direction = 's'" ng-click="movement.direction = 'x'" class="down">down</button>
+    <button ng-mousedown="movement.direction = 'a'" ng-click="movement.direction = 'x'" class="left">left</button>
+    <button ng-mousedown="movement.direction = 'd'" ng-click="movement.direction = 'x'" class="right">right</button>
 </div>
 
 </body>
