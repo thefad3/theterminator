@@ -11,10 +11,5 @@ angular.module("termController", ["firebase"])
 
         syncObj.$bindTo($scope, "movement");
 
-        //direction function
-        $scope.move = function (direction) {
-            console.log("direction:", direction);
-        };
-
 
     });
