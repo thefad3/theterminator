@@ -2,11 +2,46 @@
 <html>
 <head lang="en">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.13/angular.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
     <meta charset="UTF-8">
-    <title></title>
+    <title>theTerminator</title>
 </head>
-<body>
-
+<body ng-app="theTerminator">
+    <!-- Using Bootstrap it will allow for the application to be ran mobilely - 
+        There will be diffrent routes for mobile and desktop
+    -->
+    <div class="container">
+        <div class="row">
+        <div class="col-md-4">
+            <!-- Nothing to See here -->
+        </div>
+        <div class="col-md-4">
+            <h3>Controls Page</h3>
+            
+            <p>Controls for Robot buttons</p>
+            <button type="button" class="btn btn-primary">Forward</button>
+            <button type="button" class="btn btn-primary">Backwards</button>
+            <button type="button" class="btn btn-primary">Left</button>
+            <button type="button" class="btn btn-primary">Right</button>
+            
+        </div>
+        <div class="col-md-4">
+             <!-- Nothing to See here -->
+        </div>
+        </div>
+        <p></p>
+        <div class="row">
+        <div class="col-md-4">
+            <!-- Nothing to See here -->
+        </div>
+        <div class="col-md-4">
+        <button type="button" class="btn btn-danger">Stop Robot</div>
+        </div>
+        <div class="col-md-4">
+             <!-- Nothing to See here -->
+        </div>
+        </div>
+    </div>
 </body>
 <!-- AngularJS -->
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.13/angular.min.js"></script>
