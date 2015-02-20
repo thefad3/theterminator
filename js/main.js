@@ -2,16 +2,15 @@
 // Using only one value for "Direction"
 // Controls are W,S,A,D and X for Stop
 // https://clrobot.firebaseio.com/
+angular.module("termController", ["firebase"])
+    .controller("btnController", function ($scope, $firebase) {
 
-angular.module('theTerminator' ['firebase'])
+        var ref = new Firebase("https://clrobot.firebaseio.com/");
+        var fb = $firebase(ref);
 
-.controller('robotControls' function($scope, $firebase){
-    
-    var ref = new Firebase('https://clrobot.firebaseio.com/');
-    
-    var refControl = ref.child('/direction/');
-    
-    
-    
-})
+        var syncObj = fb.$asObject();
 
+        syncObj.$bindTo($scope, "movement");
+
+
+    });
