@@ -32,7 +32,9 @@ button {
   height: 49%;
   top: 0;
   position: absolute;
-  margin-left: 25%; }
+  margin-left: 25%; 
+
+}
 
 .down {
   width: 50%;
@@ -40,18 +42,28 @@ button {
   margin: 0 auto;
   position: absolute;
   bottom: 0;
-  margin-left: 25%; }
+  margin-left: 25%; 
+
+}
 
 .left {
   left: 0;
   height: 100%;
   width: 24.3%;
-  position: absolute; }
+  position: absolute; 
+
+}
 
 .right {
   right: 0;
   position: absolute;
   height: 100%;
-  width: 24.3%; }
+  width: 24.3%; 
 
+}
+
+<<<<<<< HEAD
 /*# sourceMappingURL=main.css.map */
+=======
+/*# sourceMappingURL=main.css.map */
+>>>>>>> origin/don
